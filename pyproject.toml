@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pdf-to-json"
+version = "0.1.0"
+description = ""
+authors = ["Artem Pitertsev <artem.pitertsev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pdf_to_json"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.29.0"
+pymupdf = "^1.23.9"
+pytest = "^7.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
